@@ -1,6 +1,5 @@
 {
     "variables": {
-      "ami_name": "{{user `ami_name_packer`}}-ansible-v$(shell date +'%Y%m%d')",
       "encrypted": "false",
       "kms_key_id": "",
       "source_ami_owners": "137112412989",
