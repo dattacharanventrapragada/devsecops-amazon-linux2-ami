@@ -1,0 +1,1 @@
+# devsecops-class-amazon-linux2-ami
