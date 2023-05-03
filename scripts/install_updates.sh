@@ -24,8 +24,8 @@ warn "sudo systemctl status amazon-ssm-agent"
 echo 'Downloading and installing amazon-cloudwatch-agent'
 warn "sudo yum install -y https://s3.amazonaws.com/amazoncloudwatch-agent/amazon_linux/amd64/latest/amazon-cloudwatch-agent.rpm"
 
-echo 'Starting cloudwatch agent'
-warn "sudo amazon-cloudwatch-agent-ctl -a fetch-config -m ec2 -c file:/tmp/CWAgentParameters.json -s"
+#echo 'Starting cloudwatch agent'
+#warn "sudo amazon-cloudwatch-agent-ctl -a fetch-config -m ec2 -c file:/tmp/CWAgentParameters.json -s"
 
 echo 'Install Amazon Inspector'
 warn 'curl https://inspector-agent.amazonaws.com/linux/latest/install | sudo bash -x'
